@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="css/ex01.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Calculo do Volume do Gás e do Liquido</h1>
+        
+
+        <h2>Digite as informações aqui</h2>
+         <form class="form" action="" method="post">
+            <label for="temp">Temperatura</label>
+            <input type="text" id="temp"  required placeholder="Digite a temperatura em Kelvin">
+            <label for="pressao">Pressão:</label>
+            <input type="text" id="pressao" required placeholder="Digite a pressão em Bar">
+            <label for="tempC">Temperatura Critica:</label>
+            <input type="text" id="tempC" required>
+            <label for="pressaoC">Pressão Critica:</label>
+            <input type="text" id="pressaoC" required>
+            <label for="constGas">Constante dos Gases:</label>
+            <input type="text" id="constGas" required>
+            <label for="expW">W:</label>
+            <input type="text" id="expW" required>
+            <button type="submit">Calcular</button>
+         </form>
+        
+         <div class="resultado"></div>
+
+    </section>
+
+    <script src="js/ex01 copy.js"></script>
+</body>
+</html>
